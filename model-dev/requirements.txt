@@ -1,0 +1,9 @@
+keras==3.6.0
+matplotlib==3.9.2
+pandas==2.2.3
+scikit_learn==1.5.2
+seaborn==0.13.2
+tensorflow==2.18.0
+tensorflow_datasets==4.9.7
+tensorflow_intel==2.18.0
+transformers==4.46.3
