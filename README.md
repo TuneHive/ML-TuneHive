@@ -11,7 +11,7 @@ Data used:
 
 This Repository contains two projects. The first one is the model-dev that shows how the model was developed, and rest-api that was responsible for creating ML model deployment.
 
-Inside the model-dev, The EDA process was done in EDA notebook (eda.ipynb), data engineering was done in data engineering notebook, and data preprocessing & modeling was done in preprocessing-modeling notebook.
+Inside the model-dev, The EDA process was done in EDA notebook inside the 'eda' directory, data engineering was done in data engineering notebook, and data preprocessing & modeling was done in preprocessing-modeling notebook.
 
 The rest-api only implements single endpoint that handle the songs recommendation based on a songs sequence.
 
