@@ -21,10 +21,10 @@ The rest-api only implements single endpoint that handle the songs recommendatio
 
 1. To train the model to output relatively same results, we need to download the csv dataset in the notebook
 2. Preprocess the csv dataset to tensorflow dataset using the `create_session_dataset_tensor` method
-3. Run the definition of GRU4REC class, and function used in training and evaluation
-4. Train the model. Because the data used here is small, the training process would not take a long time
-5. used the compute_recall_at_k function to calculate the Recall@k of the model.
-6. plot the training loss history using the plot_traning_history function
+3. Run the definition of `GRU4REC` class, and function used in training and evaluation
+4. Train the model. Because the data used here is small, the training process would not take a long time. It's advised to use the `train_gru4rec_with_strategy` to speed up the training process
+5. used the `compute_recall_at_k` function to calculate the Recall@k of the model.
+6. plot the training loss history using the `plot_traning_history` function
 7. Save and load model using the code given at the end of notebook section
 
 
